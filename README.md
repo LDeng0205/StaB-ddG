@@ -20,7 +20,7 @@ pip install -e .
 ```
 
 ## Predicting binding $\Delta \Delta G$
-StaB-ddG requires as input PDB files and a csv file with mutations of interest, and predicts the $\Delta \Delta G$ in the unit of kilocalories per mole (kcal/mol). We use the convention that a negative value ($\Delta \Delta G < 0$) represents a destabilizing mutation.
+StaB-ddG requires as input PDB files and a csv file with mutations of interest, and predicts the $\Delta \Delta G$ in the unit of kilocalories per mole (kcal/mol). We use the convention that a negative value ($\Delta \Delta G < 0$) represents a stabilizing mutation.
 
 ### Predicting $\Delta \Delta G$ for one mutant
 For a single ddG prediction, StaB-ddG requires a pdb file, the chains specifying the two binders, and a mutation string.
